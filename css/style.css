@@ -1,3 +1,44 @@
-ul .list-group-item{
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+#calendar{
+    text-align: right;
+}
+
+#year{
+    text-align: center;
+}
+
+#calendar, #year{
+    font-family: 'italianno', cursive;
+    font-size: 60pt;
+    color: #f7f7f7;
+}
+
+#BODYCOLOR{
+    background-color: #01040F;
+}
+
+header ul .listHead{
     padding: 0;
+    border: none;
+}
+
+header ul .btn{
+    border-radius: 0;
+}
+
+ul{
+    margin-left: 1rem;
+}
+
+ul .list-group-item{
+    border: none;
+    padding: 0.2em;
+    background-color: #01040F;
+    color: #D9D9D9;
+}
+
+.mounthYear{
+    color: red;
+    text-align: center;
 }
