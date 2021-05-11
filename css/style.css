@@ -76,8 +76,13 @@ ul .list-group-item{
    padding-left: 0.2rem;
 }
 
+.days .prev-date, .days .next-date{
+    color: #65666B;
+}
+
 .days .today{
     background-color: royalblue;
+    border-radius: 100%;
 }
 
 .days div:hover:not(.today){
