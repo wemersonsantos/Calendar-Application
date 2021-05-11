@@ -6,19 +6,6 @@ const firstdayIndex = date.getDay(); /*Pega de segunda a sexta*/
 const prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();/**ultimo dia do mês anterior */
 let m,n;
 
-const dMounth = document.querySelectorAll("[data-mounth]");
-
-dMounth.forEach(mounth =>{
-
-    let x = new Date();
-    x.setMonth(mounth.dataset.mounth);
-
-    n = x.getDay();//!Pegando os dias da semana que terminaram os meses de 2021
-    m = new Date(date.getFullYear(), x.getMonth() + 1, 0).getDate();//!pegando os ultimos dias dos meses de 2021
-    o = new Date(date.getFullYear(), x.getMonth(), 1).getDate();
-    
-})
-
 for(let fg = 0; fg <= 11 ; fg++){
 
     let x = new Date();
@@ -26,7 +13,7 @@ for(let fg = 0; fg <= 11 ; fg++){
 
     n = x.getDay();//!Pegando os dias da semana que terminaram os meses de 2021
     m = new Date(date.getFullYear(), x.getMonth() + 1, 0).getDate();//!pegando os ultimos dias dos meses de 2021
-    o = new Date(date.getFullYear(), x.getMonth(), 1).getDate();
+   // o = new Date(date.getFullYear(), x.getMonth(), 1).getDate();
     console.log(n)
 
     const MESES = [
