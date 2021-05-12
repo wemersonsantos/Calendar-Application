@@ -14,9 +14,9 @@ for(let M = 0; M <= 11 ; M++){
 
     let lastDayPrev = new Date(date.getFullYear(), x.getMonth(), 0).getDate();//*pegando os ultimos dias dos mes de 2021 "anterior"
 
-    lastDayIndex = new Date(date.getFullYear(), x.getMonth() + 1, 0).getDay();//*Pegando os index dos dias da semana que terminaram (sunday, monday ...) os meses de 2021 "atual"
+    let lastDayIndex = new Date(date.getFullYear(), x.getMonth() + 1, 0).getDay();//*Pegando os index dos dias da semana que terminaram (sunday, monday ...) os meses de 2021 "atual"
 
-    let nextDays = 7 - lastDayIndex - 1;
+    let nextDays = 7 - lastDayIndex;
     
     const MESES = [
         '#Jan',
