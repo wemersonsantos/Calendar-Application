@@ -52,6 +52,10 @@ ul .list-group-item{
     color: #D9D9D9;
 }
 
+section .row{
+    margin-bottom: 2rem;
+}
+
 .mounthYear{
     color: red;
     text-align: center;
